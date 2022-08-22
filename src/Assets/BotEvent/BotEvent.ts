@@ -7,8 +7,8 @@ import {
 	Message,
 	ActivityOptions,
 	Interaction,
-} from "discord.js";
-import logger from "../Utils/Logger.js";
+} from 'discord.js';
+import logger from '../Utils/Logger.js';
 
 export const client = new Client({
 	intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
